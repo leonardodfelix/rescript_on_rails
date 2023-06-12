@@ -1,4 +1,5 @@
 # Rails App with React_on_rails, Rescript and Tailwindcss-rails
+![rescript_on_rails](https://github.com/leonardodfelix/rescript_on_rails/assets/48037481/442c5c16-11cd-43db-ad93-8849ad6b9487)
 
 ## Description
 
