@@ -1,6 +1,11 @@
 {
   "name": "app",
   "private": true,
+  "scripts": {
+    "res:build": "rescript",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript build -w"
+  },
   "dependencies": {
     "@babel/core": "7",
     "@babel/plugin-transform-runtime": "7",
@@ -38,6 +43,8 @@
   ],
   "devDependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
-    "react-refresh": "^0.14.0"
+    "@rescript/react": "^0.11.0",
+    "react-refresh": "^0.14.0",
+    "rescript": "^10.1.4"
   }
 }
